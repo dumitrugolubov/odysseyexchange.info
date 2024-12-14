@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://odysseyexchange.info/sitemap.xml
+
+Disallow: /api/
+Disallow: /admin/

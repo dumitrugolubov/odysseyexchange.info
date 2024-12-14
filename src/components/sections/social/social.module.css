@@ -1,0 +1,56 @@
+.social {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.social h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--qwik-light-blue);
+}
+
+.social p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 3rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.icons a:hover {
+  transform: translateY(-5px);
+  color: var(--qwik-light-blue);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .icons {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .social h2 {
+    font-size: 2rem;
+  }
+  
+  .social p {
+    font-size: 1rem;
+  }
+}

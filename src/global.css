@@ -1,0 +1,50 @@
+:root {
+  --brand-color: #646cff;
+  --brand-light: #747bff;
+  --brand-lighter: #9499ff;
+  --brand-dark: #535bf2;
+  --brand-darker: #454ce1;
+  --brand-purple: #bd34fe;
+  --brand-blue: #41d1ff;
+  --brand-blue-alt: #47caff;
+  --dark-background: #151934;
+  --dark-text: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--dark-background);
+  color: var(--dark-text);
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-purple) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-purple) 100%);
+}

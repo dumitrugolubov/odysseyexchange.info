@@ -1,0 +1,84 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: rgba(21, 25, 52, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--qwik-light-blue);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--qwik-light-blue);
+}
+
+.auth {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.primary {
+  background: var(--qwik-light-blue);
+  color: white;
+  border: none;
+}
+
+.primary:hover {
+  background: var(--qwik-dark-blue);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--qwik-light-blue);
+  border: 1px solid var(--qwik-light-blue);
+}
+
+.secondary:hover {
+  background: var(--qwik-light-blue);
+  color: white;
+}
+
+.footer {
+  background: var(--qwik-dark-background);
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}

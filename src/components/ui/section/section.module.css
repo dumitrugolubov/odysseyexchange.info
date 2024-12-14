@@ -1,0 +1,15 @@
+.section {
+  padding: 5rem 0;
+}
+
+.background-dark {
+  background: var(--dark-background);
+}
+
+.background-gradient {
+  background: linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-purple) 100%);
+}
+
+.background-purple {
+  background: var(--brand-purple);
+}

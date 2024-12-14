@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Odyssey Exchange",
+  "short_name": "Welcome to Odyssey Exchange",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Odyssey Exchange - First crypto exchange for memecoin",
+  "icons": [{
+    "src": "favicon.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }]
+}

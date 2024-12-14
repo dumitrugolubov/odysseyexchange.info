@@ -1,0 +1,28 @@
+.button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-purple) 100%);
+  color: white;
+  border: none;
+}
+
+.button-primary:hover {
+  background: linear-gradient(135deg, var(--brand-blue-alt) 0%, var(--brand-purple) 100%);
+}
+
+.button-secondary {
+  background: transparent;
+  color: var(--brand-blue);
+  border: 2px solid var(--brand-blue);
+}
+
+.button-secondary:hover {
+  background: var(--brand-blue);
+  color: white;
+}
