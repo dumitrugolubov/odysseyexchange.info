@@ -6,6 +6,7 @@ export default component$(() => {
   return (
     <Section>
       <h1>Документация</h1>
+      <p>Odyssey Exchange - https://ody.lol</p>
       <p>Подробные руководства и API документация</p>
       
       <div>
