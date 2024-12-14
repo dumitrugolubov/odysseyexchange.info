@@ -9,7 +9,7 @@ export const RouterHead = component$(() => {
     <>
       <title>{head.title}</title>
       <link rel="canonical" href={loc.url.href} />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <link rel="icon" type="image/png" href="/favicon.png" />
 
       {head.meta.map((m) => (
         <meta key={m.key} {...m} />

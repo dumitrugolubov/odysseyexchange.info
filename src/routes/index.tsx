@@ -43,7 +43,7 @@ export const head: DocumentHead = {
     },
     {
       property: 'og:url',
-      content: 'https://odyssey.exchange',
+      content: 'https://odysseyexchange.info',
     },
     {
       name: 'twitter:card',
@@ -61,7 +61,7 @@ export const head: DocumentHead = {
   links: [
     {
       rel: 'canonical',
-      href: 'https://odyssey.exchange',
+      href: 'https://odysseyexchange.info',
     },
   ],
 };

@@ -40,7 +40,7 @@ export default component$(() => {
 
       <div class={styles.bottom}>
         <div class="container">
-          <p>&copy; {currentYear} {SITE_CONFIG.name}. Все права защищены.</p>
+          <p>&copy; {currentYear} {SITE_CONFIG.name}. Все права защищены Grimace.</p>
         </div>
       </div>
     </footer>
