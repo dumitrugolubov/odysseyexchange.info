@@ -1,6 +1,6 @@
 import { extendConfig } from '@builder.io/qwik-city/vite';
 
-export default extendConfig({}, {
+export default extendConfig({
   sitemap: {
     include: ['*'],
     exclude: [],
