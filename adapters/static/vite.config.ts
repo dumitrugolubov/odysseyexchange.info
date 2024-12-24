@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: 'https://odyssey.exchange',
+        origin: 'https://odysseyexchange.info',
       }),
     ],
   };
