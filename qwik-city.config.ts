@@ -1,10 +1,10 @@
-import { type QwikCityConfig } from '@builder.io/qwik-city';
+import { extendConfig } from '@builder.io/qwik-city/vite';
 
-export default {
+export default extendConfig({}, {
   sitemap: {
     include: ['*'],
     exclude: [],
     trailingSlash: false,
     sitemapFilename: 'public/sitemap.xml'
   }
-} satisfies QwikCityConfig;
+});
